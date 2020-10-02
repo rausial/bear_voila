@@ -1,9 +1,10 @@
 name: curso-fastai
 channels:
+  - conda-forge
   - fastai
   - defaults
-  - conda-forge
 dependencies:
   - fastai
   - voila
+  - notebook
   - ipywidgets
