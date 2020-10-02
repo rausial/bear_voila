@@ -1,8 +1,9 @@
 name: curso-fastai
 channels:
+  - fastai
   - defaults
+  - conda-forge
 dependencies:
-  - jupyterlab
   - fastai
   - voila
-  - jupyter
+  - ipywidgets
